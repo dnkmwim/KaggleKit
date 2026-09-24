@@ -18,3 +18,9 @@ python examples/run_benchmark.py
 
 或使用命令行传入 `benchmarks/sample_refs.txt` 中的固定样本。
 
+## 已有结果
+
+- [`REPORT.md`](./REPORT.md)：数据获取方式与检索方法的完整测评结论。
+
+报告正文是整理后的结论；单次运行的原始输出按上文第 5 条不提交，可用 `REPORT.md` 中的命令复现。
+
