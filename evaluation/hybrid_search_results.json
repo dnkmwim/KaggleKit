@@ -1,0 +1,43 @@
+{
+  "status": "pending_human_review",
+  "parameters": {
+    "rrf_k": 60,
+    "keyword_top_k": 20,
+    "semantic_top_k": 20,
+    "resource_type": "dataset"
+  },
+  "rows": [],
+  "timings": [],
+  "metrics": {
+    "by_method": {
+      "keyword": {
+        "labelled_queries": 0,
+        "top_1_relevant_rate": 0.0,
+        "top_5_relevant_count": 0,
+        "top_5_relevant_or_partial_count": 0,
+        "top_5_irrelevant_count": 0
+      },
+      "semantic": {
+        "labelled_queries": 0,
+        "top_1_relevant_rate": 0.0,
+        "top_5_relevant_count": 0,
+        "top_5_relevant_or_partial_count": 0,
+        "top_5_irrelevant_count": 0
+      },
+      "hybrid": {
+        "labelled_queries": 0,
+        "top_1_relevant_rate": 0.0,
+        "top_5_relevant_count": 0,
+        "top_5_relevant_or_partial_count": 0,
+        "top_5_irrelevant_count": 0
+      }
+    },
+    "top_5_overlap": {
+      "keyword_semantic": 0,
+      "keyword_hybrid": 0,
+      "semantic_hybrid": 0
+    },
+    "hybrid_semantic_only_relevant_count": 0,
+    "hybrid_keyword_only_relevant_count": 0
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "ref": "owner/shared",
+    "title": "Classification Sample",
+    "subtitle": "A useful dataset",
+    "url": "https://www.kaggle.com/datasets/owner/shared",
+    "lastUpdated": "2026-09-17T00:00:00Z",
+    "currentVersionNumber": 2,
+    "tags": [{"ref": "classification"}],
+    "voteCount": 10,
+    "downloadCount": 50,
+    "totalBytes": 1000
+  }
+]

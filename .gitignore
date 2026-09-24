@@ -19,7 +19,9 @@ build/
 *.egg-info/
 .tmp/
 benchmarks/results/
-data/
+evaluation/*.local.json
+# Only the repo-root data/ directory is ignored; examples/data/ ships sanitized samples.
+/data/
 downloads/
 *.csv
 *.parquet
