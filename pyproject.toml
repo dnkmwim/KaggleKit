@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kagglekit"
+version = "0.1.0"
+description = "Kaggle Dataset metadata acquisition, search, and benchmarking toolkit"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["psycopg[binary]>=3.2,<4", "fastembed==0.8.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+dataset-markdown = ["openpyxl>=3.1,<4", "pyarrow>=18,<25"]
+
+[project.scripts]
+kagglekit = "kagglekit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
